@@ -1,8 +1,8 @@
 export const listDifficultyQuestion: { name: string; key: string }[] = [
   { name: 'Any Difficulty', key: '' },
-  { name: 'Easy', key: 'Easy' },
-  { name: 'Medium', key: 'Medium' },
-  { name: 'Hard', key: 'Hard' },
+  { name: 'Easy', key: 'easy' },
+  { name: 'Medium', key: 'medium' },
+  { name: 'Hard', key: 'hard' },
 ];
 
 export const listTypeQuestion: { name: string; key: string }[] = [
