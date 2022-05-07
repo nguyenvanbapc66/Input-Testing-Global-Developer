@@ -85,7 +85,7 @@ const HomeContainer = () => {
           </thead>
           <tbody>
             {dataListCategories.map(({ category, type, difficulty, question }) => (
-              <tr>
+              <tr key={category}>
                 <td>{category}</td>
                 <td>{type}</td>
                 <td>{difficulty}</td>
