@@ -39,7 +39,6 @@ const HomeContainer = () => {
           difficulty,
           type,
         });
-        console.log(results);
         setDataListCategories(results);
       } catch (error) {}
       setLoading(false);
